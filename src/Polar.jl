@@ -26,7 +26,7 @@ Return tuple `(m,θ)` where `m = abs(x)` and `θ = angled(x)` where `θ` is in
 `degrees`.
 """
 polard(m,θ) = m * cosd(θ) + im * m * sind(θ)
-polard(x) = (abs(x), angledeg(x))
+polard(x) = (abs(x), angled(x))
 
 """
     angled(x)
